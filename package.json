@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "cy:open": "cypress open --e2e",
+    "cy:open-chrome": "cypress open --e2e --browser=chrome",
+    "allure:report": "allure generate allure-results --clean -o allure-report && allure open allure-report",
+    "allure:open": "allure open allure-report"
+  },
+  "devDependencies": {
+    "cypress": "^13.13.2",
+    "allure-cypress": "3.0.0-beta.10"
+  }
+}
